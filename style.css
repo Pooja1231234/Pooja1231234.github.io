@@ -1,0 +1,174 @@
+.bg {
+    background-color: black;
+    height: fit-content;
+  
+    background-size: cover;
+  }
+  
+  .bg-img {
+    height: 80vh;
+  }
+  .logo {
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    margin-right: auto;
+    padding-left: 20px;
+}
+  
+  .items {
+    color: rgb(32, 181, 240);
+    text-decoration: none;
+    padding: 20px;
+    text-align: center;
+    font-size: 25px;
+  }
+  
+  .nav-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 40px;
+    background-color: rgba(32, 31, 31, 0.685);
+  }
+  
+  .image {
+    margin-right: 80px;
+    margin-top: 40px;
+    height: 350px;
+    width: 400px;
+  }
+  
+  .head {
+    color: aliceblue;
+    padding: 40px;
+  }
+  
+  .typing::after {
+    padding-left: 15px;
+    content: "Web Developer";
+    font-size: 52px;
+    color: rgb(32, 181, 240);
+    overflow: hidden;
+    display: inline-block;
+    white-space: nowrap;
+    border-right: 1px solid white;
+    animation: typing 1s steps(9) infinite alternate, blink 10s infinite;
+  }
+  @keyframes typing {
+    0% {
+      width: 0;
+    }
+    50% {
+      width: 40%;
+    }
+    100% {
+      width: 0;
+    }
+  }
+  @keyframes blink {
+    50% {
+      border-color: aqua;
+    }
+  }
+  @keyframes changeText {
+    0%,
+    100% {
+      content: "Full Stack Developer";
+    }
+  }
+  .typing::after {
+    animation: typing 7s steps(50) infinite alternate, blink 0.6s infinite,
+      changeText 6s infinite;
+  }
+  
+  hr {
+    width: 98%;
+    border-color: rgb(86, 84, 84);
+  }
+  
+  .project-head {
+    color: green;
+    text-align: center;
+    font-size: 50px;
+    flex-wrap: wrap;
+  }
+  
+  .proj-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  .box {
+    background-color: rgb(167, 192, 159);
+    border-radius: 17px;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+  }
+  
+  .img1 {
+    width: 200px;
+    height: 200px;
+    border-radius: 9px;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .about-head {
+    color: chocolate;
+    font-size: 50px;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+  
+  .about-box {
+    background-color: coral;
+    margin: 29px;
+    border-radius: 20px;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .about-para {
+    color: rgb(242, 224, 205);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 20px;
+  }
+  
+  .abt-img {
+    height: 250px;
+    width: 290px;
+    margin-left: 10px;
+  }
+  
+  .row {
+    padding: 100px;
+    height: 75%;
+  }
+
+  .row .box {
+    padding: 50px;
+    margin: 10px;
+  }
+
+  .footer {
+    padding: 10px;
+    margin: 0px;
+    background-color: black;
+    color: white;
+    font-size: large;
+    text-align: center;
+  }
+
+  button {
+    background-color: teal;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 10%;
+  }
